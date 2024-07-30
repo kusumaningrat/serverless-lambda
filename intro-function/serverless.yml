@@ -1,0 +1,12 @@
+org: clouders
+app: intro-function
+service: intro-function
+
+provider:
+  name: aws
+  runtime: python3.10
+  profile: clouders
+
+functions:
+  buy:
+    handler: main.buy

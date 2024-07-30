@@ -1,0 +1,151 @@
+{
+  "/home/kusumaningrat/personal/Cloud/AWS/serverless/intro-function": {
+    "versionSfCore": null,
+    "versionFramework": "4.1.17",
+    "isWithinCompose": false,
+    "isCompose": false,
+    "composeOrgName": null,
+    "composeResolverProviders": {},
+    "composeServiceName": null,
+    "servicePath": "/home/kusumaningrat/personal/Cloud/AWS/serverless/intro-function",
+    "serviceConfigFileName": "serverless.yml",
+    "service": {
+      "org": "clouders",
+      "app": "intro-function",
+      "service": "intro-function",
+      "provider": {
+        "name": "aws",
+        "runtime": "python3.10",
+        "profile": "clouders",
+        "stage": "dev",
+        "region": "us-east-1",
+        "versionFunctions": true,
+        "remoteFunctionData": {
+          "Configuration": {
+            "FunctionName": "intro-function-dev-buy",
+            "FunctionArn": "arn:aws:lambda:us-east-1:008971666862:function:intro-function-dev-buy",
+            "Runtime": "python3.10",
+            "Role": "arn:aws:iam::008971666862:role/intro-function-dev-us-east-1-lambdaRole",
+            "Handler": "main.buy",
+            "CodeSize": 428,
+            "Description": "",
+            "Timeout": 6,
+            "MemorySize": 1024,
+            "LastModified": "2024-07-30T00:52:01.000+0000",
+            "CodeSha256": "NY2WBAkYsI2v3tcIK65cJwx5yTfWYq0Wse/JEuhMGr8=",
+            "Version": "$LATEST",
+            "KMSKeyArn": null,
+            "TracingConfig": {
+              "Mode": "PassThrough"
+            },
+            "MasterArn": null,
+            "RevisionId": "92a3ac17-3a61-4850-a2e7-bdd38392d4de",
+            "State": "Active",
+            "StateReason": null,
+            "StateReasonCode": null,
+            "LastUpdateStatus": "Successful",
+            "LastUpdateStatusReason": null,
+            "LastUpdateStatusReasonCode": null,
+            "PackageType": "Zip",
+            "SigningProfileVersionArn": null,
+            "SigningJobArn": null,
+            "Architectures": [
+              "x86_64"
+            ],
+            "EphemeralStorage": {
+              "Size": 512
+            },
+            "SnapStart": {
+              "ApplyOn": "None",
+              "OptimizationStatus": "Off"
+            },
+            "RuntimeVersionConfig": {
+              "RuntimeVersionArn": "arn:aws:lambda:us-east-1::runtime:fa339b789ded6e524b73b2ce2d1529eb06258c05ffa71ea5c8283c8dc106fbe3"
+            },
+            "LoggingConfig": {
+              "LogFormat": "Text",
+              "ApplicationLogLevel": null,
+              "SystemLogLevel": null,
+              "LogGroup": "/aws/lambda/intro-function-dev-buy"
+            },
+            "Layers": [],
+            "Environment": {
+              "Variables": {}
+            }
+          },
+          "Code": {
+            "RepositoryType": "S3",
+            "Location": "https://prod-iad-c1-djusa-tasks.s3.us-east-1.amazonaws.com/snapshots/008971666862/intro-function-dev-buy-86ac8ba0-42a8-4a57-8d09-a3ed42b4ce6a?versionId=u_QaqwEzS99TTywMcY.McrIi_m9Bs1SX&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCXVzLWVhc3QtMSJGMEQCIFM93GsL8uuZFGuUDwcYnCSAratKWR%2FF8VHpF5P0kLJZAiBRc83bl7pY%2B3X2flbjblxByKasBzs%2Frr47D%2F8%2BFzVjWiq6BQg6EAQaDDQ3OTIzMzAyNTM3OSIM%2FBUo%2FOP%2BJzPA4SwQKpcFbQJIpH6KSRjbzSe7soJ6nDkhlv%2FtXoQi%2BBsN4XNYCdHcSJReW8a4ZfvaJLEsaOE%2BuNkuEXQtMiAmNqkhXPHEPSCbGLp9EHT2ZYB5qKbpByX7V%2F%2BKtIHnjgN280S2yjwjj3pkfMa8tLOjh0mIc0KYAsKYvVj2nv%2FaR%2FRfkUG%2B4uaVZ8b3IZ1cOziBoR6GMAWlXLWOMT963scwivUdFR2PbyKg%2Bf6uqL42aYadzkkbeTDTJDyg6mQjJroR4Sx8rfoY1G%2BTktWLg9wKtCxYsyFDrzv%2FMiU3vxXi%2FrRZORzPapjyy0q6TNCcxwQ3K02pcowme%2FfhTYuOzm0i%2B%2FQGHPsiK1w4PESqZTuDkBMJkBdHluGYg1J7VwXTJD6ZHvkCF5VC1cnYrnPo6rr4v28xtBN7aIIOkIZ8MXC2%2FA3VgXD35uH5DP6PiLYQSOtvMm29dH1D8TKch%2BYPbFqPUfwoHbYmsUJ3KDOgBkAJ1Luzbq8MYpmD7wKrpPbl4zpaCyT7U6nQ3g6ZVey%2FXB37VoH2ioaQaztD6jk3JnIn876%2FTUNhjEacPWUU0Z3ksjeu28DVRYm7%2FwSyUfB5t%2BWOjM%2BPEVqMZToAgBpS8YbVJ%2BsbwL1Dy02enchkJH5nHclc%2BtLgzZ0OF2fEDUnkL7jMZvpPjEZZCg60Q71GlFAlT9VELh1xPt5fq0tQiY0rFNzVXnI9jVQG4fvKDdzN8fsUwQ5CbMuMS1c%2B35TKi9jhlQjtN%2FbXebJkYsoDjiXty46fShNpIlFYE9N5oaihzvXXRX47kNntP7slE94VOnM7m0WMDGxjnomqCUKTjpvUbZ2Ds8KnNviGGf2dYbUS2jSxpoC3IZLtoBynw%2BaWxg2E1AuJJ2ag0%2FCjO3hp21PUMMzpoLUGOrIBt73wz4kzE%2BKRgnE9Hhr77KbIjZYmh5nRVVAYQywRRwVMIYEHvCRkRCt1Fy0cK%2Fbja0sbU2RcbqJ1Qay7mJnpCTGUENHxHI6WaNyi%2FM1dZFid6aOxmQ381kdcu1J63z7DD5GNfcBKYs9ygucFr0gPgWSMOW3q6t40dUehAepPlgrDDCE001AmM8WKa%2B4YcA%2FYJRc1jN2ZAQFkwiCI9j784zLUa5kRayl7Mkm%2BKLgFNNQNBg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240730T005402Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIAW7FEDUVRQ2HQJ4IZ%2F20240730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2825aa94bbe23786568c134fe4df832b00b9448a54f86c4a909ced98b292b656",
+            "ImageUri": null,
+            "ResolvedImageUri": null
+          },
+          "Tags": {
+            "aws:cloudformation:stack-name": "intro-function-dev",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:008971666862:stack/intro-function-dev/2d6bfa80-4e0c-11ef-84a2-0e498d4edb95",
+            "STAGE": "dev",
+            "aws:cloudformation:logical-id": "BuyLambdaFunction"
+          }
+        }
+      },
+      "functions": {
+        "buy": {
+          "handler": "main.buy",
+          "events": [],
+          "name": "intro-function-dev-buy"
+        }
+      }
+    },
+    "serviceRawFile": "org: clouders\napp: intro-function\nservice: intro-function\n\nprovider:\n  name: aws\n  runtime: python3.10\n  profile: clouders\n\nfunctions:\n  buy:\n    handler: main.buy",
+    "command": [
+      "deploy",
+      "function"
+    ],
+    "options": {
+      "function": "buy"
+    },
+    "error": null,
+    "params": {},
+    "machineId": "13fb0429de700eb64d2489165b02efef",
+    "accessKeyV2": "<REDACTED>",
+    "accessKeyV1": "<REDACTED>",
+    "orgId": "2a1503b4-085d-4210-ba61-c444e8ec6993",
+    "orgName": "clouders",
+    "userId": "GhfCKD3rmbtCkNmxny",
+    "dashboard": {
+      "isEnabledForService": true,
+      "requiredAuthentication": false,
+      "orgFeaturesInUse": {
+        "providers": false,
+        "monitoring": false
+      },
+      "orgObservabilityIntegrations": null,
+      "serviceAppId": "jlz9L8ySpvT7gGxsnq",
+      "serviceProvider": null,
+      "instanceParameters": null
+    },
+    "userName": "clouders",
+    "subscription": null,
+    "userEmail": "kusuma16082002@gmail.com",
+    "serviceProviderAwsCredentials": "<REDACTED>",
+    "serviceProviderAwsAccountId": "008971666862",
+    "versionSf": "4.1.17",
+    "serviceProviderAwsCfStackName": "intro-function-dev",
+    "serviceProviderAwsCfStackId": "arn:aws:cloudformation:us-east-1:008971666862:stack/intro-function-dev/2d6bfa80-4e0c-11ef-84a2-0e498d4edb95",
+    "serviceProviderAwsCfStackCreated": "2024-07-30T00:39:28.102Z",
+    "serviceProviderAwsCfStackUpdated": "2024-07-30T00:40:11.048Z",
+    "serviceProviderAwsCfStackStatus": "UPDATE_COMPLETE",
+    "serviceProviderAwsCfStackOutputs": [
+      {
+        "OutputKey": "ServerlessDeploymentBucketName",
+        "OutputValue": "intro-function-dev-serverlessdeploymentbucket-fbbgryjo510b",
+        "ExportName": "sls-intro-function-dev-ServerlessDeploymentBucketName"
+      },
+      {
+        "OutputKey": "BuyLambdaFunctionQualifiedArn",
+        "OutputValue": "arn:aws:lambda:us-east-1:008971666862:function:intro-function-dev-buy:1",
+        "Description": "Current Lambda function version",
+        "ExportName": "sls-intro-function-dev-BuyLambdaFunctionQualifiedArn"
+      }
+    ]
+  }
+}
